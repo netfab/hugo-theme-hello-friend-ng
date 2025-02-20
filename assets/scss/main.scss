@@ -19,3 +19,7 @@
 @import "sharing-buttons";
 @import "tables";
 @import "404";
+
+// The last "extra" import can optionally be overridden on a per project
+// basis by creating a <HUGO_PROJECT>/assets/scss/_extra.scss file.
+@import "extra";
